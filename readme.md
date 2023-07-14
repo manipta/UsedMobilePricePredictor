@@ -9,11 +9,14 @@ git clone https://github.com/manipta/UsedMobilePricePredictor.git
 ## Data-set Examination 
 The data set in CSV format is shown below:
 <center><img src="assets/dataset.png" alt="logo"></center>
+
 * The data set has 3454 samples and 15 columns.
-After Normalizing 
+
+### After Normalizing 
+
 * The data set has 3454 samples, 51 features, and 1 target variable.
-* The test data set has 2000 samples and 51 features.
-* The target variable is the Normalised_Used_Price
+* The test data set has 2000 samples and 51 features. 
+* The target variable is the Normalised_Used_Price 
 
 The data set is available here:
 https://github.com/manipta/UsedMobilePricePredictor/blob/main/used_device_data.csv
