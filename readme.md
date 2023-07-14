@@ -1,21 +1,22 @@
-# House-Price-Prediction
-A linear regression model to predict house prices based on existing features.
+# Used-Mobile-Price-Prediction
+Compares 6 Regression Models and picks the best to predict the used Phone Price.
 
 ## Installation and Setup
 ```
-git clone https://github.com/whoparthgarg/House-Price-Prediction
+git clone https://github.com/manipta/UsedMobilePricePredictor.git
 ```
 
 ## Data-set Examination 
-The data-set in CSV format is shown below:
+The data set in CSV format is shown below:
 <center><img src="assets/dataset.png" alt="logo"></center>
+* The data set has 3454 samples and 15 columns.
+After Normalizing 
+* The data set has 3454 samples, 51 features, and 1 target variable.
+* The test data set has 2000 samples and 51 features.
+* The target variable is the Normalised_Used_Price
 
-* The training data-set has 3000 samples, 5 features and 1 target variable.
-* The test data-set has 2000 samples and 5 features.
-* The target variable is the price.
-
-The data-set is available here:
-https://github.com/whoparthgarg/House-Price-Prediction/blob/main/USA_Housing.csv
+The data set is available here:
+https://github.com/manipta/UsedMobilePricePredictor/blob/main/used_device_data.csv
 
 ## Exploratory Data Analysis
 <center><img src="assets/eda_1.png" alt="logo"></center>
@@ -24,14 +25,6 @@ https://github.com/whoparthgarg/House-Price-Prediction/blob/main/USA_Housing.csv
 
 ## Model Evaluation
 <center><img src="assets/model_evaluation.png" alt="logo"></center>
-
-Interpreting the coefficients:
-
-* All features fixed, a 1 unit increase in Avg. Area Income is associated with an increase of \$21.52 .
-* All features fixed, a 1 unit increase in Avg. Area House Age is associated with an increase of \$164883.28 .
-* All features fixed, a 1 unit increase in Avg. Area Number of Rooms is associated with an increase of \$122368.67 .
-* All features fixed, a 1 unit increase in Avg. Area Number of Bedrooms is associated with an increase of \$2233.80 .
-* All features fixed, a 1 unit increase in Area Population is associated with an increase of \$15.15 .
 
 ## Predictions
 <center><img src="assets/predictions.png" alt="logo"></center>
