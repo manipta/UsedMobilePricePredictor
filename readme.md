@@ -24,25 +24,30 @@ The data set is available here:
 https://github.com/manipta/UsedMobilePricePredictor/blob/main/used_device_data.csv
 
 ## Exploratory Data Analysis
+### Box Plot
 <center><img src="assets/outliers.png" alt="logo"></center>
 
 Using Box Plot to check outliers
 
+### KDE Plot for data features
 <center><img src="assets/densityplot.png" alt="logo"></center>
 
 Kernel Density Estimation Plot to know how features or data are distributed.
 
 It helps to decide whether normalization techniques are required or not.
 
+###  KDE Plot between target and features
 <center><img src="assets/targetdensityplot.png" alt="logo"></center>
 
 It plots all features wrt our target(Used_mobile_price) so that we can check how the target value varies with the features.
 It also helps to decide which correlation techniques we can use based on whether the data is normal.
 
+### Correlation Plot
 <center><img src="assets/correlation.png" alt="logo"></center>
 
 The correlation plot tells us how strongly features linearly relate to the target value.
 
+### Q-Q Plot
 <center><img src="assets/qqplot.png" alt="logo"></center>
 
 Q-Q plot plots the relation of data with an expected normal distribution using a straight line.
